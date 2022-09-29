@@ -3,6 +3,7 @@
 }
 body{
     color: hsl(225, 20%, 60%);
+    background-color:hsl(230, 100%, 99%); ;
 }
 header{
    
@@ -10,6 +11,7 @@ header{
     text-align: center;
 }
 .card{
+    background-color: white;
     max-width: 30rem;
     margin: 0px auto;
  padding: 3rem;
@@ -21,8 +23,19 @@ header{
     padding: 10px;
     
 }
+.discount{
+    background-color:hsl(14, 92%, 95%) ;
+    color:hsl(15, 100%, 70%) ;
+    border: none;
+    border-radius: 2em;
+    padding: 3px 10px;
+}
+.cta-container{
+    display: ;
+}
 ul{
     list-style-type: none;
+  
 }
 .cta{
     background-color: hsl(227, 35%, 25%);
@@ -30,6 +43,7 @@ ul{
     border: none;
     padding:10px 40px ;
     color:  hsl(226, 100%, 87%);
+   
 }
 h1{
     color: hsl(227, 35%, 25%);
