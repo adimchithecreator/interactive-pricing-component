@@ -20,15 +20,31 @@
  <p>  Sign-up for our 30-day trial. No credit card required. </p>
     </header>
  <div class="card">
-  Pageviews
-  $ /month
-  <img src="images/icon-slider.svg" class="slider" alt="">
+  <div class="top-section">
+  <section>
+    <span> Pageviews</span>
+ <span> $ /month</span>
+ 
+  <div>
+
+  <input
+  id="discount-slider"
+  type="range"
+  min="0"  max="5 "
+  value="4" />
+  </div>
+</section>
   <div >
     <span>  Monthly Billing </span>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
     <span>Yearly Billing</span>
     <span> <button class="discount">
       25% discount</button></span>
   </div>
+</div>
 <hr>
 <div class="cta-container">
 <ul>
