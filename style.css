@@ -3,7 +3,8 @@
 }
 body{
     color: hsl(225, 20%, 60%);
-    background-color:hsl(230, 100%, 99%); ;
+    background-color:hsl(230, 100%, 99%); 
+    font-family: 'Manrope', sans-serif;
 }
 header{
    
