@@ -3,18 +3,24 @@
 }
 body{
     color: hsl(225, 20%, 60%);
-    background-color:hsl(230, 100%, 99%); 
+    background-image: url('images/bg-pattern.svg');
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
     font-family: 'Manrope', sans-serif;
 }
 header{
-   
-    background: url(../images/pattern-circles.svg) no-repeat center;
+   margin-top: 30px;
+ background-image: url('images/pattern-circles.svg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ padding-bottom: 10px;
     text-align: center;
 }
 .card{
     background-color: white;
-    max-width: 35rem;
-    margin: 0px auto;
+    max-width: 33rem;
+    margin: 50px auto;
     border-radius: 10px;
 
  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -25,15 +31,21 @@ header{
 .content{
   display: flex;
   justify-content: space-between;
+  line-height: 20px;
+}
+.content span{
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
-
 #price{
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 800;
   
 }
 
 input[type="range"] {
+  margin-top: 45px;
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
@@ -76,15 +88,22 @@ input[type="range"] {
 
 .billing{
   margin-top: 50px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+text-align: right;
+
+margin-left: 50px;
+
 }
+.billing span{
+  font-size: 12px;
+}
+
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
+    width: 48px;
     height: 24px;
+    margin-inline: 10px;
+ 
   }
  .switch input { 
     opacity: 0;
@@ -101,12 +120,13 @@ input[type="range"] {
     background-color: hsl(223, 50%, 87%);
     -webkit-transition: .4s;
     transition: .4s;
+ 
   }
 .slider:before {
     position: absolute;
     content: "";
     height: 20px;
-    width: 20px;
+    width: 15px;
     left: 4px;
     bottom: 2px;
     background-color: white;
@@ -133,12 +153,18 @@ input:checked + .slider:before {
     border: none;
     border-radius: 2em;
     padding: 3px 7px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 600;
 }
 .cta-container{
  padding: 2rem;
  display: flex;
  align-items: center;
  justify-content: space-between;
+ font-size: 12px;
+ font-weight: 600;
 }
 ul{
     list-style-type: none;
